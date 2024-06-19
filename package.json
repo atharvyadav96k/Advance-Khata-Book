@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm start"
   },
-  "author": "Atharv",
+  "author": "developer aadesh (Atharv Sanjay Yadav)",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"

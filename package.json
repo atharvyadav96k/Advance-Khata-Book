@@ -1,0 +1,14 @@
+{
+  "name": "advence-khata-book",
+  "version": "1.0.0",
+  "description": "Store all records of users",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "Atharv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

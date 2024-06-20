@@ -41,4 +41,7 @@ app.post("/register", async function(req, res){
     }
     
 });
+app.get('/createnewhissab', function(req, res){
+    res.render('newhissab')
+});
 app.listen(3000);

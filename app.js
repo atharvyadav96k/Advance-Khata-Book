@@ -35,11 +35,10 @@ app.post("/register", async function(req, res){
             password: req.body.password
         })
         await user.save();
-        res.send(user)
+        res.redirect("/login");
     }catch(err){
-        res.send(err)
+        res.send(err);
     }
     
 });
-
 app.listen(3000);
